@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .content{
+            display: grid;
+            border-color: black;
+            border-width: 10px;
+            text-shadow: 10px;
+            border: 2px solid black;
+            margin-left: 10px;
+            padding-right: 10 px;
+            padding: 50px;
+            word-spacing: 2px;
+            grid-template-rows: max-content 5px 1fr;
+        }
+        .price
+        {
+            color: blue;
+        }
+        p{
+            white-space: 0 px;
+            white-space-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <div class="img"><img src="card.jpg" alt="Web dev course" width="200px"></div>
+        <footer>Web Devlopment Course</footer>
+        <p>2 Courses<p class="price"><s class="price">$8500</s> $4500</p></p>
+    </div>
+</body>
+</html>
